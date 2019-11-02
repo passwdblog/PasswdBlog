@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>About Passwd.Blog on Hugo Future Imperfect</title>
-    <link>https://Passwd.blog/about/</link>
-    <description>Recent content in About Passwd.Blog on Hugo Future Imperfect</description>
+    <title>About Passwd.Blog on Passwd.Blog</title>
+    <link>https://passwd.blog/about/</link>
+    <description>Recent content in About Passwd.Blog on Passwd.Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 31 Oct 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://Passwd.blog/about/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://passwd.blog/about/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>

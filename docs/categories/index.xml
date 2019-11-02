@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on Hugo Future Imperfect</title>
-    <link>https://Passwd.blog/categories/</link>
-    <description>Recent content in Categories on Hugo Future Imperfect</description>
+    <title>Categories on Passwd.Blog</title>
+    <link>https://passwd.blog/categories/</link>
+    <description>Recent content in Categories on Passwd.Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 22 Jun 2017 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://Passwd.blog/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://passwd.blog/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Hugo</title>
-      <link>https://Passwd.blog/categories/hugo/</link>
+      <link>https://passwd.blog/categories/hugo/</link>
       <pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://Passwd.blog/categories/hugo/</guid>
+      <guid>https://passwd.blog/categories/hugo/</guid>
       <description></description>
     </item>
     

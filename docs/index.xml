@@ -1,58 +1,58 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Hugo Future Imperfect</title>
-    <link>https://Passwd.blog/</link>
-    <description>Recent content on Hugo Future Imperfect</description>
+    <title>Passwd.Blog</title>
+    <link>https://passwd.blog/</link>
+    <description>Recent content on Passwd.Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 22 Jun 2017 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://Passwd.blog/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://passwd.blog/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Fancy App 1</title>
-      <link>https://Passwd.blog/itemized/item1/</link>
+      <link>https://passwd.blog/itemized/item1/</link>
       <pubDate>Thu, 22 Jun 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://Passwd.blog/itemized/item1/</guid>
+      <guid>https://passwd.blog/itemized/item1/</guid>
       <description> App 1 </description>
     </item>
     
     <item>
       <title>Fancy App 2</title>
-      <link>https://Passwd.blog/itemized/item2/</link>
+      <link>https://passwd.blog/itemized/item2/</link>
       <pubDate>Thu, 22 Jun 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://Passwd.blog/itemized/item2/</guid>
+      <guid>https://passwd.blog/itemized/item2/</guid>
       <description> App 2 </description>
     </item>
     
     <item>
       <title>Fancy App 3</title>
-      <link>https://Passwd.blog/itemized/item3/</link>
+      <link>https://passwd.blog/itemized/item3/</link>
       <pubDate>Thu, 22 Jun 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://Passwd.blog/itemized/item3/</guid>
+      <guid>https://passwd.blog/itemized/item3/</guid>
       <description> App 3 </description>
     </item>
     
     <item>
       <title>Fancy App 4</title>
-      <link>https://Passwd.blog/itemized/item4/</link>
+      <link>https://passwd.blog/itemized/item4/</link>
       <pubDate>Thu, 22 Jun 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://Passwd.blog/itemized/item4/</guid>
+      <guid>https://passwd.blog/itemized/item4/</guid>
       <description> App 4 </description>
     </item>
     
     <item>
       <title>Creating a New Theme</title>
-      <link>https://Passwd.blog/blog/creating-a-new-theme/</link>
+      <link>https://passwd.blog/blog/creating-a-new-theme/</link>
       <pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://Passwd.blog/blog/creating-a-new-theme/</guid>
+      <guid>https://passwd.blog/blog/creating-a-new-theme/</guid>
       <description>Introduction aaaaaa This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&amp;rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&amp;rsquo;t cover using CSS to style your theme.
 We&amp;rsquo;ll start with creating a new site with a very basic template.</description>
     </item>
