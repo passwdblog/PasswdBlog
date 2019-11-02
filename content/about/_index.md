@@ -1,29 +1,15 @@
 +++
-title = "About Hugo"
-date = "2014-04-09"
+title = "About Passwd.Blog"
+date = "2019-10-31"
 +++
 
-Hugo is a static site engine written in Go.
+Passwd.Blog is an education site.
 
 
-It makes use of a variety of open source projects including:
+All the techniques provided in the tutorials on Passwd.Blog are solely meant for educational purposes. All of the techniques taught here are only meant to be used in a closed laboratory environment or in consent with a second party. If you are using any of these techniques for illegal purposes, Passwd.Blog can’t be held responsible for possible lawful consequences.
 
-* [Cobra](https://github.com/spf13/cobra)
-* [Viper](https://github.com/spf13/viper)
-* [J Walter Weatherman](https://github.com/spf13/jWalterWeatherman)
-* [Cast](https://github.com/spf13/cast)
+All actions and activities related to the material contained within Passwd.Blog is solely your responsibility. If you misuse this information for illegal activities, criminal charges may be brought against your person.
 
-Learn more and contribute on [GitHub](https://github.com/spf13).
+Some links may lead to malicious websites, click carefully, Passwd.Blog can't be held responsible.
 
-## Setup
-
-Some fun facts about [Hugo](http://gohugo.io/):
-
-* Built in [Go](http://golang.org/)
-* Loosely inspired by [Jekyll](http://jekyllrb.com/)
-* Primarily developed by [spf13](http://spf13.com/) on the train while commuting to and from Manhattan.
-* Coded in [Vim](http://vim.org) using [spf13-vim](http://vim.spf13.com/)
-
-Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/spf13/hugo/issues/new) or [ask me on Twitter](https://twitter.com/spf13).
-
-Thanks for reading!
+Thanks for visiting
