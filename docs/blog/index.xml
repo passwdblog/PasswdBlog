@@ -6,10 +6,32 @@
     <description>Recent content in Blog on Passwd.Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 28 Sep 2014 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 01 Nov 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://passwd.blog/blog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Git: Installation and Setup for hugo.</title>
+      <link>https://passwd.blog/blog/git-install/</link>
+      <pubDate>Fri, 01 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://passwd.blog/blog/git-install/</guid>
+      <description>Introduction This Git installation tutorial is very specific to deploying a hugo website to GitHub Pages using a custom domain. The hugo installation, setup and deployment tutorial can be found here.
+I will detail both Windows 10 and Ubuntu-19.10 setups.
+windows Windows 10 Setup Check if git is installed REM run the command from a dos prompt C:\&amp;gt;git usage: git [--version] [--help] [-C &amp;lt;path&amp;gt;] [-c &amp;lt;name&amp;gt;=&amp;lt;value&amp;gt;] [--exec-path[=&amp;lt;path&amp;gt;]] [--html-path] [--man-path] [--info-path] [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare] [--git-dir=&amp;lt;path&amp;gt;] [--work-tree=&amp;lt;path&amp;gt;] [--namespace=&amp;lt;name&amp;gt;] &amp;lt;command&amp;gt; [&amp;lt;args&amp;gt;] .</description>
+    </item>
+    
+    <item>
+      <title>Hugo: Installation, Setup and publishing to GitHub pages using a custom domain.</title>
+      <link>https://passwd.blog/blog/hugo-install-setup-publish/</link>
+      <pubDate>Fri, 01 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://passwd.blog/blog/hugo-install-setup-publish/</guid>
+      <description>Introduction This post is somewhat meta, it describes my journey installing hugo, setting up Hugo on my authoring machines and publishing the site to GitHub pages using a custom domain.
+I will detail both Windows 10 and Ubuntu-19.10 setups.
+I found a lot of very good information on the web, but found it a bit fragmented and made a lot of assumptions, especially as far as git knowledge is concerned.</description>
+    </item>
     
     <item>
       <title>Creating a New Theme</title>

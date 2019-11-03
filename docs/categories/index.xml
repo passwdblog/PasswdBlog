@@ -6,17 +6,35 @@
     <description>Recent content in Categories on Passwd.Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 22 Jun 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 01 Nov 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://passwd.blog/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Git</title>
+      <link>https://passwd.blog/categories/git/</link>
+      <pubDate>Fri, 01 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://passwd.blog/categories/git/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Hugo</title>
       <link>https://passwd.blog/categories/hugo/</link>
-      <pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 01 Nov 2019 00:00:00 +0000</pubDate>
       
       <guid>https://passwd.blog/categories/hugo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tutorial</title>
+      <link>https://passwd.blog/categories/tutorial/</link>
+      <pubDate>Fri, 01 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://passwd.blog/categories/tutorial/</guid>
       <description></description>
     </item>
     

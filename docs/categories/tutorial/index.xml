@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>tutorial on Passwd.Blog</title>
-    <link>https://passwd.blog/tags/tutorial/</link>
-    <description>Recent content in tutorial on Passwd.Blog</description>
+    <title>Tutorial on Passwd.Blog</title>
+    <link>https://passwd.blog/categories/tutorial/</link>
+    <description>Recent content in Tutorial on Passwd.Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 01 Nov 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://passwd.blog/tags/tutorial/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://passwd.blog/categories/tutorial/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -31,16 +31,6 @@ windows Windows 10 Setup Check if git is installed REM run the command from a do
       <description>Introduction This post is somewhat meta, it describes my journey installing hugo, setting up Hugo on my authoring machines and publishing the site to GitHub pages using a custom domain.
 I will detail both Windows 10 and Ubuntu-19.10 setups.
 I found a lot of very good information on the web, but found it a bit fragmented and made a lot of assumptions, especially as far as git knowledge is concerned.</description>
-    </item>
-    
-    <item>
-      <title>Creating a New Theme</title>
-      <link>https://passwd.blog/blog/creating-a-new-theme/</link>
-      <pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://passwd.blog/blog/creating-a-new-theme/</guid>
-      <description>Introduction aaaaaa This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&amp;rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&amp;rsquo;t cover using CSS to style your theme.
-We&amp;rsquo;ll start with creating a new site with a very basic template.</description>
     </item>
     
   </channel>

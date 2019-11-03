@@ -3,13 +3,58 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://passwd.blog/about/</loc>
-    <lastmod>2019-10-31T00:00:00+00:00</lastmod>
+    <loc>https://passwd.blog/blog/</loc>
+    <lastmod>2019-11-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://passwd.blog/categories/</loc>
-    <lastmod>2017-06-22T00:00:00+00:00</lastmod>
+    <lastmod>2019-11-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://passwd.blog/categories/git/</loc>
+    <lastmod>2019-11-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://passwd.blog/blog/git-install/</loc>
+    <lastmod>2019-11-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://passwd.blog/categories/hugo/</loc>
+    <lastmod>2019-11-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://passwd.blog/blog/hugo-install-setup-publish/</loc>
+    <lastmod>2019-11-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://passwd.blog/</loc>
+    <lastmod>2019-11-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://passwd.blog/tags/</loc>
+    <lastmod>2019-11-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://passwd.blog/categories/tutorial/</loc>
+    <lastmod>2019-11-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://passwd.blog/tags/tutorial/</loc>
+    <lastmod>2019-11-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://passwd.blog/about/</loc>
+    <lastmod>2019-10-31T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -38,32 +83,7 @@
   </url>
   
   <url>
-    <loc>https://passwd.blog/</loc>
-    <lastmod>2017-06-22T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://passwd.blog/blog/</loc>
-    <lastmod>2014-09-28T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://passwd.blog/blog/creating-a-new-theme/</loc>
-    <lastmod>2014-09-28T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://passwd.blog/categories/hugo/</loc>
-    <lastmod>2014-09-28T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://passwd.blog/tags/</loc>
-    <lastmod>2014-09-28T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://passwd.blog/tags/tutorial/</loc>
     <lastmod>2014-09-28T00:00:00+00:00</lastmod>
   </url>
   
