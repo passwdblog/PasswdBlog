@@ -35,9 +35,9 @@ Click [here]({{<relref "/blog/Hugo-Install-Setup-Publish-Part2.md">}}) for Part 
 
 Click [here]({{<relref "/blog/Hugo-Install-Setup-Publish-Part3.md">}}) for Part 3.
 ### In Part 3
-1. TODO
-2. TODO
-3. TODO
+1. Build the site for the first time
+2. Adding the published site to GitHub
+3. Ongoing editing and publishing
 
 
 ___
