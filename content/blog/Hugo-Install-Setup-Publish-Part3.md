@@ -89,7 +89,7 @@ C:\Hugo\Sites\PasswdTest.Blog> git commit -m "Initial Docs Commit"
 
 C:\Hugo\Sites\PasswdTest.Blog> git push --force origin master
 
-TODO: Explain about the error without force. Only an issue if multiple people contribute.
+REM The --force above is a bit of a work-around because (I think) GitHub add the CNAME file to the docs folder which causes Git to throw and error indicating that files have changed on the server and a pull needs to be done first before pushing. I haven't had time to investigate a more elegant solution. Because I am the only author at this stage --force doesn't cause any issues for me.
 ```
 
 Refresh your GitHub repository, you should now have a docs folder.
@@ -200,7 +200,7 @@ Total in 139 ms
 
 ~/Sites/PasswdTest.Blog$ git push --force origin master
 
-TODO: Explain about the error without force. Only an issue if multiple people contribute.
+# The --force above is a bit of a work-around because (I think) GitHub add the CNAME file to the docs folder which causes Git to throw and error indicating that files have changed on the server and a pull needs to be done first before pushing. I haven't had time to investigate a more elegant solution. Because I am the only author at this stage --force doesn't cause any issues for me.
 ```
 
 Refresh your GitHub repository, you should now have a docs folder.
