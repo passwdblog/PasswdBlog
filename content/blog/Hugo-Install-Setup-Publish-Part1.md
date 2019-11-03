@@ -8,7 +8,7 @@ featured = "Hugo-Logo-004.png"
 featuredalt = "Hugo Logo"
 featuredpath = "date"
 linktitle = ""
-title = "Hugo: Installation, Setup and publishing to GitHub pages using a custom domain."
+title = "PART 1: Hugo: Installation, Setup and publishing to GitHub pages using a custom domain."
 type = "post"
 
 +++
@@ -19,6 +19,29 @@ This post is somewhat meta, it describes my journey installing  ``` hugo ```, se
 I will detail both [Windows 10]({{<ref "#windows" >}}) and [Ubuntu-19.10]({{<ref "#ubuntu" >}}) setups. 
 
 I found a lot of very good information on the web, but found it a bit fragmented and made a lot of assumptions, especially as far as ```git``` knowledge is concerned.  
+
+Click [here]({{<relref "/blog/Hugo-Install-Setup-Publish-Part1.md">}}) for Part 1.
+### In Part 1
+1. Installing Hugo
+2. Configuring Hugo
+3. Creating a Hugo Site
+
+Click [here]({{<relref "/blog/Hugo-Install-Setup-Publish-Part2.md">}}) for Part 2.
+### In Part 2
+1. Installing Git
+2. Setting up GitHub
+3. Setting up Git to work with Hugo
+4. Installing a Theme
+5. Running the site for the first time
+6. Pushing all the code to GitHub
+
+Click [here]({{<relref "/blog/Hugo-Install-Setup-Publish-Part3.md">}}) for Part 3.
+### In Part 3
+1. TODO
+2. TODO
+3. TODO
+
+
 
 ___
 
@@ -59,8 +82,7 @@ C:\Hugo>
 2. You will use ```C:\Hugo\bin``` to store executable files
 3. I am using ```PasswdTest.Blog``` as the name of my site, directories, etc. Substitute your site wherever you see PasswdTest.Blog.
 4. You will be publishing your site to GitHub Pages using a custom domain name.
-5. You have git installed and working, if you don't follow my tutorial [here]({{<relref "/blog/Git-Install.md">}}).
-6. You have an account on GitHub.
+5. You have an account on GitHub.
 
 ## Check if hugo is installed
 ```
@@ -183,105 +205,7 @@ C:\Hugo\Sites\PasswdTest.Blog> dir
                8 Dir(s)  83,632,214,016 bytes free
 
 ```
-
-## Git and GitHub
-*(There may be many better ways to do this, but this WORKS for me)*
-
-If you don't have Git installed, please follow the [Git Installation Steps]({{<relref "/blog/Git-Install.md">}}) here.
-
-
-Register for GitHub if you don't have an account, once you have registered, log in with your GitHub account. On the top right of the main GitHub page click on the small down arrow and select ```Settings```.
-
-Once in the settings menu select ```SSH and GPG keys```, and then click on ```New SSH key```.
-
-### Generating your SSH key.
-
-Click on the Windows start menu and select ```Git Bash```.
-
-In the Git Bash window enter the following command to generate an SSH key:
-```
-# Change the email address to the one you used to sign up to GitHub!!
-# Accept the default path when offered
-
-$ssh-keygen -t rsa -b 4096 -C "your_github_email@domain.com"
-
-Generating public/private ras key pair.
-
-Enter file in which to save the key (/c/Users/user/.ssh/id_rsa)    [Press Enter to accept the default path]
-
-Created directory '/c/Users/user/.ssh'.
-
-Enter passphrase (empty for no passphrase):    [Enter a password if you wish]
-Enter same passphrase again: 
-
-Your identification has been saved in /c/Users/user/.ssh/id_rsa.
-Your public key has been saved in /c/Users/user/.ssh/id_rsa.pub.
-The key fingerprint is:
-SHA256:AbCdEfG1234567jLbrOkQOYvLXxvs2gojrqvrkuKxnDb7A8 your_github_email@domain.com
-The key's randomart image is:
-+---[RSA 4029]----+
-|          . =.o. |
-|           + O   |
-|          o = o  |
-|         . +     |
-|        S   .    |
-|. .    +   . .   |
-|oo +E  .oo  +    |
-|+o. oo. =o+==    |
-|*+=*+oo. =++==   |
-+----[SHA256]-----+
-
-```
-
-Your private and public RSA key will are stored in /c/Users/user/.ssh  (Accessible via Git Bash).
-
-```
-# Change directory to .ssh and do an ls-la to see the files
-$ cd .ssh
-$ ls -la
-
-total 8
--rw-r--r-- 1 user 197121 3324 Nov  3 13:54 id_rsa
--rw-r--r-- 1 user 197121  730 Nov  3 13:54 id_rsa.pub
-```
-
-You now need to copy your Public Key (id_rsa.pub) to GitHub. To see your public key run the following:
-```
-# show the contents of id_rsa.pub to see your public key
-$ cat id_rsa.pub
-ssh-rsa BBBB3NzaC1yc2EAAAADAQABAAAB+Bao45bJuM9DljnmwVxRjNK22SXyBIxCmiSPSAMRi/
-3tNp9LIULIUtj9Nk98YD1kjxkNcsRjshblrZKXcZIj5D3plIFNL+DvKp3Z6GdfVE7Rho7c3/
-+uvdXTvi5Fo4/sMIQNNBoBbuoTVwXZK/OpRjf0nB2lIxWckx9lLikIcfVpk+LLpxqcbQH8fB/
-lZDtdVslznxFCpLssEWZlXaBUm/DvATK5aln3W2jTziLLM4hJ/
-1A1S9es0hxQjpyq3fJkivAgNYe/bQR6mKmWguGyLVDngjO4BezERhJjBbWQPgH8lZFcFuzLzOs4hgJI/
-p0yuK7nr9hqbBHq6jb20l9JzSGoGOXNZyydK6w/rAM+20R+kSPWIsb96K6YGQB/
-n3c33+wJJrwLl0z0a+ZN7ms7ADLydcrRGOp2eZCPbHtqRsoXqgKkbQVI+rd8uJB/
-3o4dqMtG95UCj8M45Fh7Ms90cIw5UWclNxjKrdVSyEVNzy/oftxSlw== your_github_email@domain.com
-```
-
-Go back to GitHub, enter a description in the ```Title``` field, and paste all the text into the ```Key``` field. The key should contain everything in id_rsa.key, including ssh-rsa at the beginning and your email address at the end.
-
-Click ```Add SSH Key``` to save your key.
-
-Test your SSH Keys with GitHub by running the following:
-```
-# From Git Bash run the following command to test your SSH keys with GitHub
-$ ssh -T git@github.com
-
-Hi your_github_username! You've successfully authenticated, but GitHub does not provide shell access.
-```
-
-
-
-
-
-
-
-
-
-
-
-
+Continue to [Part 2]({{<relref "/blog/Hugo-Install-Setup-Publish-Part2.md">}}).
 ___
 
 # ubuntu
@@ -321,8 +245,7 @@ $
 1. You will use your "home" directory ```/home/user``` as the starting point for your new project.
 2. I am using ```PasswdTest.Blog``` as the name of my site, directories, etc. Substitute your site wherever you see PasswdTest.Blog.
 3. You will be publishing your site to GitHub Pages using a custom domain name.
-4. You have git installed and working, if you don't follow my tutorial [here]({{<relref "/blog/Git-Install.md">}}).
-5. You have an account on GitHub.
+4. You have an account on GitHub.
 
 ## Check if hugo is installed
 ```
@@ -409,96 +332,4 @@ drwxr-xr-x 2 ubuntu ubuntu  40 Nov  2 21:33 themes
 
 ```
 
-
-## Git and GitHub
-*(There may be many better ways to do this, but this WORKS for me)*
-
-If you don't have Git installed, please follow the [Git Installation Steps]({{<relref "/blog/Git-Install.md">}}) here.
-
-
-Register for GitHub if you don't have an account, once you have registered, log in with your GitHub account. On the top right of the main GitHub page click on the small down arrow and select ```Settings```.
-
-Once in the settings menu select ```SSH and GPG keys```, and then click on ```New SSH key```.
-
-### Generating your SSH key.
-
-Enter the following command to generate an SSH key:
-```
-# Change the email address to the one you used to sign up to GitHub!!
-# Accept the default path when offered
-
-$ssh-keygen -t rsa -b 4096 -C "your_github_email@domain.com"
-
-Generating public/private ras key pair.
-
-Enter file in which to save the key (/home/user/.ssh/id_rsa)    [Press Enter to accept the default path]
-
-Created directory '/home/user/.ssh'.
-
-Enter passphrase (empty for no passphrase):    [Enter a password if you wish]
-Enter same passphrase again: 
-
-Your identification has been saved in /c/Users/user/.ssh/id_rsa.
-Your public key has been saved in /c/Users/user/.ssh/id_rsa.pub.
-The key fingerprint is:
-SHA256:AbCdEfG1234567jLbrOkQOYvLXxvs2gojrqvrkuKxnDb7A8 your_github_email@domain.com
-The key's randomart image is:
-+---[RSA 4029]----+
-|          . =.o. |
-|           + O   |
-|          o = o  |
-|         . +     |
-|        S   .    |
-|. .    +   . .   |
-|oo +E  .oo  +    |
-|+o. oo. =o+==    |
-|*+=*+oo. =++==   |
-+----[SHA256]-----+
-
-```
-
-Your private and public RSA key will are stored in /home/user/.ssh
-
-```
-# Change directory to .ssh and do an ls-la to see the files
-$ cd .ssh
-$ ls -la
-
-total 8
--rw-r--r-- 1 user 197121 3324 Nov  3 13:54 id_rsa
--rw-r--r-- 1 user 197121  730 Nov  3 13:54 id_rsa.pub
-```
-
-You now need to copy your Public Key (id_rsa.pub) to GitHub. To see your public key run the following:
-```
-# show the contents of id_rsa.pub to see your public key
-$ cat id_rsa.pub
-ssh-rsa BBBB3NzaC1yc2EAAAADAQABAAAB+Bao45bJuM9DljnmwVxRjNK22SXyBIxCmiSPSAMRi/
-3tNp9LIULIUtj9Nk98YD1kjxkNcsRjshblrZKXcZIj5D3plIFNL+DvKp3Z6GdfVE7Rho7c3/
-+uvdXTvi5Fo4/sMIQNNBoBbuoTVwXZK/OpRjf0nB2lIxWckx9lLikIcfVpk+LLpxqcbQH8fB/
-lZDtdVslznxFCpLssEWZlXaBUm/DvATK5aln3W2jTziLLM4hJ/
-1A1S9es0hxQjpyq3fJkivAgNYe/bQR6mKmWguGyLVDngjO4BezERhJjBbWQPgH8lZFcFuzLzOs4hgJI/
-p0yuK7nr9hqbBHq6jb20l9JzSGoGOXNZyydK6w/rAM+20R+kSPWIsb96K6YGQB/
-n3c33+wJJrwLl0z0a+ZN7ms7ADLydcrRGOp2eZCPbHtqRsoXqgKkbQVI+rd8uJB/
-3o4dqMtG95UCj8M45Fh7Ms90cIw5UWclNxjKrdVSyEVNzy/oftxSlw== your_github_email@domain.com
-```
-
-Go back to GitHub, enter a description in the ```Title``` field, and paste all the text into the ```Key``` field. The key should contain everything in id_rsa.key, including ssh-rsa at the beginning and your email address at the end.
-
-Click ```Add SSH Key``` to save your key.
-
-Test your SSH Keys with GitHub by running the following:
-```
-# Run the following command to test your SSH keys with GitHub
-$ ssh -T git@github.com
-
-Hi your_github_username! You've successfully authenticated, but GitHub does not provide shell access.
-```
-
-
-
-
-
-
-
-
+Continue to [Part 2]({{<relref "/blog/Hugo-Install-Setup-Publish-Part2.md">}}).

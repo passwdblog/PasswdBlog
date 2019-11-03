@@ -12,25 +12,40 @@
     
     
     <item>
-      <title>Git: Installation and Setup for hugo.</title>
-      <link>https://passwd.blog/blog/git-install/</link>
+      <title>PART 1: Hugo: Installation, Setup and publishing to GitHub pages using a custom domain.</title>
+      <link>https://passwd.blog/blog/hugo-install-setup-publish-part1/</link>
       <pubDate>Fri, 01 Nov 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://passwd.blog/blog/git-install/</guid>
-      <description>Introduction This Git installation tutorial is very specific to deploying a hugo website to GitHub Pages using a custom domain. The hugo installation, setup and deployment tutorial can be found here.
-I will detail both Windows 10 and Ubuntu-19.10 setups.
-windows Windows 10 Setup Check if git is installed REM run the command from a dos prompt C:\&amp;gt;git usage: git [--version] [--help] [-C &amp;lt;path&amp;gt;] [-c &amp;lt;name&amp;gt;=&amp;lt;value&amp;gt;] [--exec-path[=&amp;lt;path&amp;gt;]] [--html-path] [--man-path] [--info-path] [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare] [--git-dir=&amp;lt;path&amp;gt;] [--work-tree=&amp;lt;path&amp;gt;] [--namespace=&amp;lt;name&amp;gt;] &amp;lt;command&amp;gt; [&amp;lt;args&amp;gt;] .</description>
-    </item>
-    
-    <item>
-      <title>Hugo: Installation, Setup and publishing to GitHub pages using a custom domain.</title>
-      <link>https://passwd.blog/blog/hugo-install-setup-publish/</link>
-      <pubDate>Fri, 01 Nov 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://passwd.blog/blog/hugo-install-setup-publish/</guid>
+      <guid>https://passwd.blog/blog/hugo-install-setup-publish-part1/</guid>
       <description>Introduction This post is somewhat meta, it describes my journey installing hugo, setting up Hugo on my authoring machines and publishing the site to GitHub pages using a custom domain.
 I will detail both Windows 10 and Ubuntu-19.10 setups.
 I found a lot of very good information on the web, but found it a bit fragmented and made a lot of assumptions, especially as far as git knowledge is concerned.</description>
+    </item>
+    
+    <item>
+      <title>PART 2: Hugo: Installation, Setup and publishing to GitHub pages using a custom domain.</title>
+      <link>https://passwd.blog/blog/hugo-install-setup-publish-part2/</link>
+      <pubDate>Fri, 01 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://passwd.blog/blog/hugo-install-setup-publish-part2/</guid>
+      <description>Introduction This is Part 2 of my journey installing hugo, setting up Hugo on my authoring machines and publishing the site to GitHub pages using a custom domain.
+I will detail both Windows 10 and Ubuntu-19.10 setups.
+Click here for Part 1.
+In Part 1  Installing Hugo Configuring Hugo Creating a Hugo Site  Click here for Part 2.
+In Part 2  Installing Git Setting up GitHub Setting up Git to work with Hugo Installing a Theme Running the site for the first time Pushing all the code to GitHub  Click here for Part 3.</description>
+    </item>
+    
+    <item>
+      <title>PART 3: Hugo: Installation, Setup and publishing to GitHub pages using a custom domain.</title>
+      <link>https://passwd.blog/blog/hugo-install-setup-publish-part3/</link>
+      <pubDate>Fri, 01 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://passwd.blog/blog/hugo-install-setup-publish-part3/</guid>
+      <description>Introduction This is Part 3 of my journey installing hugo, setting up Hugo on my authoring machines and publishing the site to GitHub pages using a custom domain.
+I will detail both Windows 10 and Ubuntu-19.10 setups.
+Click here for Part 1.
+In Part 1  Installing Hugo Configuring Hugo Creating a Hugo Site  Click here for Part 2.
+In Part 2  Installing Git Setting up GitHub Setting up Git to work with Hugo Installing a Theme Running the site for the first time Pushing all the code to GitHub  Click here for Part 3.</description>
     </item>
     
     <item>

@@ -13,22 +13,22 @@
   </url>
   
   <url>
-    <loc>https://passwd.blog/categories/git/</loc>
-    <lastmod>2019-11-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://passwd.blog/blog/git-install/</loc>
-    <lastmod>2019-11-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://passwd.blog/categories/hugo/</loc>
     <lastmod>2019-11-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://passwd.blog/blog/hugo-install-setup-publish/</loc>
+    <loc>https://passwd.blog/blog/hugo-install-setup-publish-part1/</loc>
+    <lastmod>2019-11-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://passwd.blog/blog/hugo-install-setup-publish-part2/</loc>
+    <lastmod>2019-11-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://passwd.blog/blog/hugo-install-setup-publish-part3/</loc>
     <lastmod>2019-11-01T00:00:00+00:00</lastmod>
   </url>
   
