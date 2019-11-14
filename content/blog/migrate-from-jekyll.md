@@ -1,6 +1,6 @@
 +++
 author = "Migrating author"
-categories = ["Hugo", "Jekyll"]
+categories = ["Hugo", "Jekyll", "Test"]
 date = "2014-03-10"
 description = ""
 featured = ""
