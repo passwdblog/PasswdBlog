@@ -797,7 +797,8 @@
 		.image.featured {
 			display: block;
 			margin: 0 0 3em 0;
-			width: 100%;
+			width: 75%;
+			height: 75%;
 		}
 
 			.image.featured img {

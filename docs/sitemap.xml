@@ -4,12 +4,42 @@
   
   <url>
     <loc>https://passwd.blog/blog/</loc>
-    <lastmod>2019-11-01T00:00:00+00:00</lastmod>
+    <lastmod>2019-11-15T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://passwd.blog/categories/</loc>
-    <lastmod>2019-11-01T00:00:00+00:00</lastmod>
+    <lastmod>2019-11-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://passwd.blog/blog/powershell-notes-from-jessitron/</loc>
+    <lastmod>2019-11-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://passwd.blog/</loc>
+    <lastmod>2019-11-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://passwd.blog/categories/powershell/</loc>
+    <lastmod>2019-11-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://passwd.blog/tags/</loc>
+    <lastmod>2019-11-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://passwd.blog/categories/tutorial/</loc>
+    <lastmod>2019-11-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://passwd.blog/tags/tutorial/</loc>
+    <lastmod>2019-11-15T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -29,26 +59,6 @@
   
   <url>
     <loc>https://passwd.blog/blog/hugo-install-setup-publish-part3/</loc>
-    <lastmod>2019-11-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://passwd.blog/</loc>
-    <lastmod>2019-11-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://passwd.blog/tags/</loc>
-    <lastmod>2019-11-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://passwd.blog/categories/tutorial/</loc>
-    <lastmod>2019-11-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://passwd.blog/tags/tutorial/</loc>
     <lastmod>2019-11-01T00:00:00+00:00</lastmod>
   </url>
   

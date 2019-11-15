@@ -6,10 +6,22 @@
     <description>Recent content in tutorial on Passwd.Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 01 Nov 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 15 Nov 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://passwd.blog/tags/tutorial/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Notes from (Twitter:@jessitron) Jessica Joy Kerr&#39;s Bash to Powershell Twitter Thread</title>
+      <link>https://passwd.blog/blog/powershell-notes-from-jessitron/</link>
+      <pubDate>Fri, 15 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://passwd.blog/blog/powershell-notes-from-jessitron/</guid>
+      <description>Introduction On the 13th of November 2019, someone in my Twitter feel retweeted @jessitron Jessica Joy Kerr&amp;rsquo;s Thread titled:
+&amp;ldquo;I sat down to learn enough PowerShell to recreate one of my bash functions.&amp;rdquo;
+While I have been using Bash and PowerShell for many years, I learnt quite a few new things and thought I would write it down here for future reference.
+Bash to Powershell Long Names PowerShell prefers long names, and it tries to make them generic.</description>
+    </item>
     
     <item>
       <title>PART 1: Hugo: Installation, Setup and publishing to GitHub pages using a custom domain.</title>

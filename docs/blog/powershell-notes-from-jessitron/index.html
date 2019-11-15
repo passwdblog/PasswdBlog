@@ -1,0 +1,1503 @@
+<!DOCTYPE HTML>
+
+<html>
+    <head>
+        <script type="application/ld+json">
+    {
+        "@context" : "http://schema.org",
+        "@type" : "BlogPosting",
+        "mainEntityOfPage": {
+             "@type": "WebPage",
+             "@id": "https:\/\/passwd.blog\/"
+        },
+        "articleSection" : "blog",
+        "name" : "Notes from (Twitter:@jessitron) Jessica Joy Kerr\x27s Bash to Powershell Twitter Thread",
+        "headline" : "Notes from (Twitter:@jessitron) Jessica Joy Kerr\x27s Bash to Powershell Twitter Thread",
+        "description" : "Notes from (Twitter:@jessitron) Jessica Joy Kerr\x27s Bash to Powershell Twitter Thread.",
+        "inLanguage" : "en",
+        "author" : "",
+        "creator" : "",
+        "publisher": "",
+        "accountablePerson" : "",
+        "copyrightHolder" : "",
+        "copyrightYear" : "2019",
+        "datePublished": "2019-11-15 00:00:00 \x2b0000 UTC",
+        "dateModified" : "2019-11-15 00:00:00 \x2b0000 UTC",
+        "url" : "https:\/\/passwd.blog\/blog\/powershell-notes-from-jessitron\/",
+        "wordCount" : "983",
+        "keywords" : [ "tutorial","Blog" ]
+    }
+    </script>
+        
+            
+                <title>Notes from (Twitter:@jessitron) Jessica Joy Kerr&#39;s Bash to Powershell Twitter Thread</title>
+            
+        
+
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="generator" content="Hugo 0.59.0" />
+        
+
+
+        
+            <meta name="author" content="Root">
+        
+        
+            <meta name="description" content="Notes from (Twitter:@jessitron) Jessica Joy Kerr&#39;s Bash to Powershell Twitter Thread.">
+        
+
+        <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Notes from (Twitter:@jessitron) Jessica Joy Kerr&#39;s Bash to Powershell Twitter Thread"/>
+<meta name="twitter:description" content="Notes from (Twitter:@jessitron) Jessica Joy Kerr&#39;s Bash to Powershell Twitter Thread."/>
+<meta name="twitter:site" content="@passwdblog"/>
+
+        <meta property="og:title" content="Notes from (Twitter:@jessitron) Jessica Joy Kerr&#39;s Bash to Powershell Twitter Thread" />
+<meta property="og:description" content="Notes from (Twitter:@jessitron) Jessica Joy Kerr&#39;s Bash to Powershell Twitter Thread." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://passwd.blog/blog/powershell-notes-from-jessitron/" />
+<meta property="article:published_time" content="2019-11-15T00:00:00+00:00" />
+<meta property="article:modified_time" content="2019-11-15T00:00:00+00:00" />
+
+        <meta property="og:image" content="https://passwd.blog//images/logo.png">
+        <meta property="og:image:type" content="image/png">
+        <meta property="og:image:width" content="512">
+        <meta property="og:image:height" content="512">
+        <meta itemprop="name" content="Notes from (Twitter:@jessitron) Jessica Joy Kerr&#39;s Bash to Powershell Twitter Thread">
+<meta itemprop="description" content="Notes from (Twitter:@jessitron) Jessica Joy Kerr&#39;s Bash to Powershell Twitter Thread.">
+
+
+<meta itemprop="datePublished" content="2019-11-15T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2019-11-15T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="983">
+
+
+
+<meta itemprop="keywords" content="tutorial," />
+
+        
+
+        
+            
+        
+
+        
+        
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/atom-one-light.min.css">
+            <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:400,800,900|Source+Sans+Pro:400,700">
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.1.25/jquery.fancybox.min.css">
+            <link rel="stylesheet" href="https://passwd.blog/css/main.css">
+            <link rel="stylesheet" href="https://passwd.blog/css/add-on.css">
+            <link rel="stylesheet" href="https://passwd.blog/css/academicons.min.css">
+        
+
+        
+            
+                
+            
+        
+
+
+  
+    
+    <link href='//cdn.bootcss.com/highlight.js/9.11.0/styles/github.min.css' rel='stylesheet' type='text/css' />
+  
+
+
+      
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-151294131-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+
+    </head>
+    <body>
+
+      
+      <div id="wrapper">
+
+    
+    
+<header id="header">
+    
+      <h1><a href="https://passwd.blog/">blog</a></h1>
+    
+
+    <nav class="links">
+        <ul>
+            
+                <li>
+                    <a href="https://passwd.blog/">
+                            <i class="fa fa-home">&nbsp;</i>Home
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="https://passwd.blog/about/">
+                            <i class="fa fa-id-card-o">&nbsp;</i>About
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="https://passwd.blog/blog/">
+                            <i class="fa fa-newspaper-o">&nbsp;</i>Blog
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="https://passwd.blog/itemized/">
+                            <i class="fa fa-list">&nbsp;</i>Itemized
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="https://passwd.blog/categories/">
+                            <i class="fa fa-sitemap">&nbsp;</i>Categories
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="https://passwd.blog/contact/">
+                            <i class="fa fa-envelope-o">&nbsp;</i>Contact
+                    </a>
+                </li>
+            
+        </ul>
+    </nav>
+    <nav class="main">
+        <ul>
+            
+            <li id="share-nav" class="share-menu" style="display:none;">
+                <a class="fa-share-alt" href="#share-menu">Share</a>
+            </li>
+            
+            <li class="search">
+                <a class="fa-search" href="#search">Search</a>
+                <form id="search" method="get" action="//google.com/search">
+                    <input type="text" name="q" placeholder="Search" />
+                    <input type="hidden" name="as_sitesearch" value="https://passwd.blog/">
+                </form>
+            </li>
+            <li class="menu">
+                <a class="fa-bars" href="#menu">Menu</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+
+<section id="menu">
+
+    
+        <section>
+            <form class="search" method="get" action="//google.com/search">
+                <input type="text" name="q" placeholder="Search" />
+                <input type="hidden" name="as_sitesearch" value="https://passwd.blog/">
+            </form>
+        </section>
+
+    
+        <section>
+            <ul class="links">
+                
+                    <li>
+                        <a href="https://passwd.blog/">
+                            <h3>
+                                <i class="fa fa-home">&nbsp;</i>Home
+                            </h3>
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="https://passwd.blog/about/">
+                            <h3>
+                                <i class="fa fa-id-card-o">&nbsp;</i>About
+                            </h3>
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="https://passwd.blog/blog/">
+                            <h3>
+                                <i class="fa fa-newspaper-o">&nbsp;</i>Blog
+                            </h3>
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="https://passwd.blog/itemized/">
+                            <h3>
+                                <i class="fa fa-list">&nbsp;</i>Itemized
+                            </h3>
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="https://passwd.blog/categories/">
+                            <h3>
+                                <i class="fa fa-sitemap">&nbsp;</i>Categories
+                            </h3>
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="https://passwd.blog/contact/">
+                            <h3>
+                                <i class="fa fa-envelope-o">&nbsp;</i>Contact
+                            </h3>
+                        </a>
+                    </li>
+                
+            </ul>
+        </section>
+
+    
+        <section class="recent-posts">
+            <div class="mini-posts">
+                <header>
+                    <h3>Recent Posts</h3>
+                </header>
+                
+
+                
+                    
+                
+
+                
+                        <article class="mini-post">
+                            <header>
+                                <h3><a href="https://passwd.blog/blog/powershell-notes-from-jessitron/">Notes from (Twitter:@jessitron) Jessica Joy Kerr&#39;s Bash to Powershell Twitter Thread</a></h3>
+                                
+                                <time class="published" datetime=
+                                    '2019-11-15'>
+                                    November 15, 2019</time>
+                            </header>
+                            
+    
+
+    
+        
+        
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+
+        
+        
+        
+
+        <a href="https://passwd.blog/blog/powershell-notes-from-jessitron/" class="image featured">
+            <img src="https://passwd.blog/date/powershell.jpg" alt="">
+        </a>
+    
+
+
+                        </article>
+                
+                        <article class="mini-post">
+                            <header>
+                                <h3><a href="https://passwd.blog/blog/hugo-install-setup-publish-part1/">PART 1: Hugo: Installation, Setup and publishing to GitHub pages using a custom domain.</a></h3>
+                                
+                                <time class="published" datetime=
+                                    '2019-11-01'>
+                                    November 1, 2019</time>
+                            </header>
+                            
+    
+
+    
+        
+        
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+
+        
+        
+        
+
+        <a href="https://passwd.blog/blog/hugo-install-setup-publish-part1/" class="image featured">
+            <img src="https://passwd.blog/img/2019/11/Hugo-Logo-004.png" alt="">
+        </a>
+    
+
+
+                        </article>
+                
+                        <article class="mini-post">
+                            <header>
+                                <h3><a href="https://passwd.blog/blog/hugo-install-setup-publish-part2/">PART 2: Hugo: Installation, Setup and publishing to GitHub pages using a custom domain.</a></h3>
+                                
+                                <time class="published" datetime=
+                                    '2019-11-01'>
+                                    November 1, 2019</time>
+                            </header>
+                            
+    
+
+    
+        
+        
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+
+        
+        
+        
+
+        <a href="https://passwd.blog/blog/hugo-install-setup-publish-part2/" class="image featured">
+            <img src="https://passwd.blog/img/2019/11/Hugo-Logo-004.png" alt="">
+        </a>
+    
+
+
+                        </article>
+                
+                        <article class="mini-post">
+                            <header>
+                                <h3><a href="https://passwd.blog/blog/hugo-install-setup-publish-part3/">PART 3: Hugo: Installation, Setup and publishing to GitHub pages using a custom domain.</a></h3>
+                                
+                                <time class="published" datetime=
+                                    '2019-11-01'>
+                                    November 1, 2019</time>
+                            </header>
+                            
+    
+
+    
+        
+        
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+
+        
+        
+        
+
+        <a href="https://passwd.blog/blog/hugo-install-setup-publish-part3/" class="image featured">
+            <img src="https://passwd.blog/img//Hugo-Logo-004.png" alt="">
+        </a>
+    
+
+
+                        </article>
+                
+
+                
+            </div>
+        </section>
+
+    
+        
+</section>
+
+    <section id="share-menu">
+    <section id="social-share-nav">
+        <ul class="links">
+            <header>
+                <h3>Share this post <i class="fa fa-smile-o"></i></h3>
+            </header>
+            
+
+
+
+<li>
+  <a href="//twitter.com/share?url=https%3a%2f%2fpasswd.blog%2fblog%2fpowershell-notes-from-jessitron%2f&amp;text=Notes%20from%20%28Twitter%3a%40jessitron%29%20Jessica%20Joy%20Kerr%27s%20Bash%20to%20Powershell%20Twitter%20Thread&amp;via=passwdblog" target="_blank" class="share-btn twitter">
+    <i class="fa fa-twitter"></i>
+    <p>Twitter</p>
+    </a>
+</li>
+
+
+
+
+<li>
+  <a href="//plus.google.com/share?url=https%3a%2f%2fpasswd.blog%2fblog%2fpowershell-notes-from-jessitron%2f" target="_blank" class="share-btn google-plus">
+    <i class="fa fa-google-plus"></i>
+    <p>Google+</p>
+  </a>
+</li>
+
+
+
+
+
+<li>
+  <a href="//www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fpasswd.blog%2fblog%2fpowershell-notes-from-jessitron%2f" target="_blank" class="share-btn facebook">
+    <i class="fa fa-facebook"></i>
+    <p>Facebook</p>
+    </a>
+</li>
+
+
+
+
+<li>
+  <a href="//reddit.com/submit?url=https%3a%2f%2fpasswd.blog%2fblog%2fpowershell-notes-from-jessitron%2f&amp;title=Notes%20from%20%28Twitter%3a%40jessitron%29%20Jessica%20Joy%20Kerr%27s%20Bash%20to%20Powershell%20Twitter%20Thread" target="_blank" class="share-btn reddit">
+    <i class="fa fa-reddit-alien"></i>
+    <p>Reddit</p>
+  </a>
+</li>
+
+
+
+
+<li>
+  <a href="//www.linkedin.com/shareArticle?url=https%3a%2f%2fpasswd.blog%2fblog%2fpowershell-notes-from-jessitron%2f&amp;title=Notes%20from%20%28Twitter%3a%40jessitron%29%20Jessica%20Joy%20Kerr%27s%20Bash%20to%20Powershell%20Twitter%20Thread" target="_blank" class="share-btn linkedin">
+      <i class="fa fa-linkedin"></i>
+      <p>LinkedIn</p>
+    </a>
+</li>
+
+
+
+
+<li>
+  <a href="//www.stumbleupon.com/submit?url=https%3a%2f%2fpasswd.blog%2fblog%2fpowershell-notes-from-jessitron%2f&amp;title=Notes%20from%20%28Twitter%3a%40jessitron%29%20Jessica%20Joy%20Kerr%27s%20Bash%20to%20Powershell%20Twitter%20Thread" target="_blank" class="share-btn stumbleupon">
+    <i class="fa fa-stumbleupon"></i>
+    <p>StumbleUpon</p>
+  </a>
+</li>
+
+
+
+
+<li>
+  <a href="//www.pinterest.com/pin/create/button/?url=https%3a%2f%2fpasswd.blog%2fblog%2fpowershell-notes-from-jessitron%2f&amp;description=Notes%20from%20%28Twitter%3a%40jessitron%29%20Jessica%20Joy%20Kerr%27s%20Bash%20to%20Powershell%20Twitter%20Thread" target="_blank" class="share-btn pinterest">
+    <i class="fa fa-pinterest-p"></i>
+    <p>Pinterest</p>
+  </a>
+</li>
+
+
+
+
+<li>
+  <a href="mailto:?subject=Check out this post by Root&amp;body=https%3a%2f%2fpasswd.blog%2fblog%2fpowershell-notes-from-jessitron%2f" target="_blank" class="share-btn email">
+    <i class="fa fa-envelope"></i>
+    <p>Email</p>
+  </a>
+</li>
+
+
+        </ul>
+    </section>
+</section>
+
+    
+    <div id="main">
+        
+        
+        <article class="post">
+  <header>
+    <div class="title">
+        
+            <h1><a href="https://passwd.blog/blog/powershell-notes-from-jessitron/">Notes from (Twitter:@jessitron) Jessica Joy Kerr&#39;s Bash to Powershell Twitter Thread</a></h1>
+            
+        
+        
+            <p>Notes from (Twitter:@jessitron) Jessica Joy Kerr&#39;s Bash to Powershell Twitter Thread.</p>
+        
+    </div>
+    <div class="meta">
+        
+
+        <time class="published"
+            datetime='2019-11-15'>
+            November 15, 2019</time>
+        <span class="author">Root</span>
+        
+            <p>5 minute read</p>
+        
+        
+    </div>
+</header>
+
+
+  
+    <section id="social-share">
+      <ul class="icons">
+        
+
+
+
+<li>
+  <a href="//twitter.com/share?url=https%3a%2f%2fpasswd.blog%2fblog%2fpowershell-notes-from-jessitron%2f&amp;text=Notes%20from%20%28Twitter%3a%40jessitron%29%20Jessica%20Joy%20Kerr%27s%20Bash%20to%20Powershell%20Twitter%20Thread&amp;via=passwdblog" target="_blank" class="share-btn twitter">
+    <i class="fa fa-twitter"></i>
+    <p>Twitter</p>
+    </a>
+</li>
+
+
+
+
+<li>
+  <a href="//plus.google.com/share?url=https%3a%2f%2fpasswd.blog%2fblog%2fpowershell-notes-from-jessitron%2f" target="_blank" class="share-btn google-plus">
+    <i class="fa fa-google-plus"></i>
+    <p>Google+</p>
+  </a>
+</li>
+
+
+
+
+
+<li>
+  <a href="//www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fpasswd.blog%2fblog%2fpowershell-notes-from-jessitron%2f" target="_blank" class="share-btn facebook">
+    <i class="fa fa-facebook"></i>
+    <p>Facebook</p>
+    </a>
+</li>
+
+
+
+
+<li>
+  <a href="//reddit.com/submit?url=https%3a%2f%2fpasswd.blog%2fblog%2fpowershell-notes-from-jessitron%2f&amp;title=Notes%20from%20%28Twitter%3a%40jessitron%29%20Jessica%20Joy%20Kerr%27s%20Bash%20to%20Powershell%20Twitter%20Thread" target="_blank" class="share-btn reddit">
+    <i class="fa fa-reddit-alien"></i>
+    <p>Reddit</p>
+  </a>
+</li>
+
+
+
+
+<li>
+  <a href="//www.linkedin.com/shareArticle?url=https%3a%2f%2fpasswd.blog%2fblog%2fpowershell-notes-from-jessitron%2f&amp;title=Notes%20from%20%28Twitter%3a%40jessitron%29%20Jessica%20Joy%20Kerr%27s%20Bash%20to%20Powershell%20Twitter%20Thread" target="_blank" class="share-btn linkedin">
+      <i class="fa fa-linkedin"></i>
+      <p>LinkedIn</p>
+    </a>
+</li>
+
+
+
+
+<li>
+  <a href="//www.stumbleupon.com/submit?url=https%3a%2f%2fpasswd.blog%2fblog%2fpowershell-notes-from-jessitron%2f&amp;title=Notes%20from%20%28Twitter%3a%40jessitron%29%20Jessica%20Joy%20Kerr%27s%20Bash%20to%20Powershell%20Twitter%20Thread" target="_blank" class="share-btn stumbleupon">
+    <i class="fa fa-stumbleupon"></i>
+    <p>StumbleUpon</p>
+  </a>
+</li>
+
+
+
+
+<li>
+  <a href="//www.pinterest.com/pin/create/button/?url=https%3a%2f%2fpasswd.blog%2fblog%2fpowershell-notes-from-jessitron%2f&amp;description=Notes%20from%20%28Twitter%3a%40jessitron%29%20Jessica%20Joy%20Kerr%27s%20Bash%20to%20Powershell%20Twitter%20Thread" target="_blank" class="share-btn pinterest">
+    <i class="fa fa-pinterest-p"></i>
+    <p>Pinterest</p>
+  </a>
+</li>
+
+
+
+
+<li>
+  <a href="mailto:?subject=Check out this post by Root&amp;body=https%3a%2f%2fpasswd.blog%2fblog%2fpowershell-notes-from-jessitron%2f" target="_blank" class="share-btn email">
+    <i class="fa fa-envelope"></i>
+    <p>Email</p>
+  </a>
+</li>
+
+
+      </ul>
+    </section>
+  
+
+  
+    
+
+    
+        
+        
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+
+        
+        
+        
+
+        <a href="https://passwd.blog/blog/powershell-notes-from-jessitron/" class="image featured">
+            <img src="https://passwd.blog/img/2019/112019/11/powershell.jpg" alt="">
+        </a>
+    
+
+
+  <div id="content">
+    
+
+<h1 id="introduction">Introduction</h1>
+
+<p>On the 13th of November 2019, someone in my Twitter feel retweeted <code>@jessitron</code> Jessica Joy Kerr&rsquo;s Thread titled:</p>
+
+<p><strong>&ldquo;I sat down to learn enough PowerShell to recreate one of my bash functions.&rdquo;</strong></p>
+
+<p>While I have been using Bash and PowerShell for many years, I learnt quite a few new things and thought I would write it down here for future reference.</p>
+
+<h1 id="bash-to-powershell">Bash to Powershell</h1>
+
+<h2 id="long-names">Long Names</h2>
+
+<p>PowerShell prefers long names, and it tries to make them generic. Verb-Noun, do what to what resource.</p>
+
+<p><code>Get-Item, Set-Location</code></p>
+
+<p>The PowerShell glossary defines &ldquo;noun&rdquo; as &ldquo;The word that follows the hyphen in a Windows PowerShell cmdlet name.&rdquo;</p>
+
+<p><a href="https://docs.microsoft.com/en-us/powershell/scripting/learn/windows-powershell-glossary?view=powershell-6" target=_blank> Windows PowerShell Glossary</a></p>
+
+<p>I like long names for readability of scripts (when trailblazing).</p>
+
+<p>Short names are better for exploring.</p>
+
+<h2 id="aliases">Aliases</h2>
+
+<p>PowerShell has aliases, and the standard ones also combine, like &ldquo;g&rdquo; for Get- and &ldquo;l&rdquo; for Location</p>
+
+<p><code>gl=Get-Location</code></p>
+
+<p><a href="https://docs.microsoft.com/en-us/powershell/scripting/learn/using-familiar-command-names?view=powershell-6#interpreting-standard-aliases" target=_blank>Using Familiar Command Names</a></p>
+
+<p>I love that you get these AND long names for making descriptive scripts.</p>
+
+<h2 id="stdin-and-stdout">STDIN and STDOUT</h2>
+
+<p>In bash (and other Unix shells), programs compose on STDIN and STDOUT. The interface between them is strings of text.</p>
+
+<p>In PowerShell, the interface is objects. Programs (cmdlets) pipe objects to each other.</p>
+
+<p>Ah, rich data! Ah, no string parsing!</p>
+
+<p>PowerShell provides each cmdlet with standard</p>
+
+<ul>
+<li>command-line parsing</li>
+<li>help, triggered by -?</li>
+<li>definitions of some common parameters</li>
+<li>output formatting</li>
+<li>error handling options (coooool)</li>
+</ul>
+
+<h2 id="whatif">WhatIF</h2>
+
+<p>The common parameter -WhatIf is a great idea! It&rsquo;s like &ndash;dry-run in some Unix utilities like make.</p>
+
+<p>Separate making decisions from implementing them.</p>
+
+<p>You can even turn it on for the whole session with <code>$WhatIfPreference=$true</code></p>
+
+<p><img src="https://passwd.blog/img/2019/11/jessitron-1.jpg" alt="" /></p>
+
+<h2 id="erroraction">-ErrorAction</h2>
+
+<p>Then there&rsquo;s the very cool -ErrorAction common parameter.
+Set it to &ldquo;SilentlyContinue&rdquo; when you don&rsquo;t want errors printed to stderr.</p>
+
+<p>For instance, test whether a directory exists:
+if (Get-Location -Path $ofInterest -ErrorAction SilentlyContinue) { … }</p>
+
+<h2 id="output-formatting">Output Formatting</h2>
+
+<p>Output formatting: by default you get some reasonable printout of the object. Or, pipe the output to a formatting cmdlet, like
+Format-Table -Property name,value,etc -wrap
+Out-Host -paging (like piping to &lsquo;less&rsquo;)
+Get-Member (like reflection &ndash; see methods &amp; properties)</p>
+
+<p>I got all excited about this and then had a very hard time figuring out how to make a cmdlet at all.</p>
+
+<p>So far:
+- make a file with extension .ps1
+- create a function in there, and then make it an &ldquo;advanced function&rdquo; by adding cmdlet support
+- source this file: . ./whatever.ps1</p>
+
+<p><img src="https://passwd.blog/img/2019/11/jessitron-2.png" alt="" /></p>
+
+<p>but watch out - you need the cmdlet spell and then params(). You&rsquo;ll get an error about CmdletBinding &ldquo;Unexpected attribute&rdquo;
+until you add params() AFTER it.
+WTFMS</p>
+
+<p><img src="https://passwd.blog/img/2019/11/jessitron-3.jpg" alt="" /></p>
+
+<p>Here&rsquo;s a weird thing: any command that you call in your function, if it returns something and you don&rsquo;t assign that to a variable or pipe it somewhere, that becomes an object that is output from your script.
+Also any value that you put on a line by itself.</p>
+
+<p><img src="https://passwd.blog/img/2019/11/jessitron-4.jpg" alt="" />
+<img src="https://passwd.blog/img/2019/11/jessitron-4b.jpg" alt="" /></p>
+
+<p>PowerShell has a distinction between data output, which continues through the pipeline, and output to the user.</p>
+
+<p><code>Write-Host</code> sends a message to the person running the cmdlet. Something on a line by itself goes down the pipe.</p>
+
+<p><img src="https://passwd.blog/img/2019/11/jessitron-5.jpg" alt="" />
+<img src="https://passwd.blog/img/2019/11/jessitron-5b.jpg" alt="" /></p>
+
+<h2 id="exit-code">Exit Code</h2>
+
+<p>Checking the exit code of a command is different than in bash. Use $LastExitCode, and test with bash-like comparison operators.</p>
+
+<p>This pops a dialog if &ldquo;git push&rdquo; fails:
+<img src="https://passwd.blog/img/2019/11/jessitron-6.jpg" alt="" /></p>
+
+<h2 id="comparison-operators">Comparison Operators</h2>
+
+<p>Windows is generally case-insensitive. Comparison operators like &ldquo;-eq&rdquo; are case-insensitive with strings.</p>
+
+<p>There are case-sensitive versions that add a C.
+&ldquo;Yes&rdquo; -eq &ldquo;yes&rdquo;
+but NOT
+&ldquo;Yes -ceq &ldquo;yes&rdquo;</p>
+
+<p>I guess this is a benefit of using short names instead of symbols for the operators.</p>
+
+<h2 id="tee-object">Tee-object</h2>
+
+<p>Like unix tee but even more useful: Tee-Object.
+Use it to send output to multiple places. The extra one can be a file or a variable.
+<img src="https://passwd.blog/img/2019/11/jessitron-7.jpg" alt="" /></p>
+
+<h2 id="newline-in-strings">Newline in strings</h2>
+
+<p>Oh, and PowerShell for newline in strings is</p>
+
+<p>`n</p>
+
+<p>(backtick n)
+Instead of \n</p>
+
+<h2 id="function-parameters">Function Parameters</h2>
+
+<p>My function (and the alias to it) automatically accept positional parameters in the order I declared them, or named parameters in any order.
+Cool! Did not expect!</p>
+
+<p>I love happy surprises like this. It&rsquo;s like Ruby, except easier to install.</p>
+
+<h2 id="window-title-change">Window Title Change</h2>
+
+<p>Now I want to change the title of the terminal tab.</p>
+
+<p>bash:
+    echo -ne &ldquo;\033]0;Changed Title\007&rdquo;</p>
+
+<p>PowerShell:
+   $host.ui.RawUI.WindowTitle = “Changed Title”
+💗</p>
+
+<h2 id="snippets">Snippets</h2>
+
+<p>ooh VS Code has a snippet for cmdlets &ndash;
+Type &ldquo;cmdlet&rdquo; and ctrl-space. It gives me a whole template for the cmdlet!</p>
+
+<p><img src="https://passwd.blog/img/2019/11/jessitron-8.jpg" alt="" />
+<img src="https://passwd.blog/img/2019/11/jessitron-8b.png" alt="" /></p>
+
+<h2 id="map-objects-in-the-pipe">Map Objects in the Pipe</h2>
+
+<p>I finally figured out how to map the objects in the pipe.
+It&rsquo;s foreach, then a block in curlies and $_ is the current object.</p>
+
+<p>Get-ChildItem | foreach { $_.name }
+<img src="https://passwd.blog/img/2019/11/jessitron-9.png" alt="" /></p>
+
+<h2 id="saving-output-to-a-variable">Saving Output to a variable</h2>
+
+<p>OK, here&rsquo;s something weird. I wanted to get the error message from &lsquo;git push&rsquo; and save it, so that I can display it in my popup dialog.</p>
+
+<p>So, pipe stderr to stdout (like in unix), then tee it to a variable</p>
+
+<p>git push 2&gt;&amp;1 | Tee-Object -Variable PushOutput</p>
+
+<p><img src="https://passwd.blog/img/2019/11/jessitron-10.jpg" alt="" />
+<img src="https://passwd.blog/img/2019/11/jessitron-10b.png" alt="" /></p>
+
+<p>The weird thing is, when git push succeeds, I get a sad error to my console. And the git push output doesn&rsquo;t make it to my screen.</p>
+
+<p><img src="https://passwd.blog/img/2019/11/jessitron-11.png" alt="" /></p>
+
+<p>Here&rsquo;s the deal: git push writes &ldquo;Everything up to date&rdquo; to STDERR.
+PowerShell turns everything that came in on STDERR from a string into an ErrorRecord. So I get an ErrorRecord instead.</p>
+
+<p>It&rsquo;s worse when the push does something; the output of the push report is obscured.</p>
+
+<p><img src="https://passwd.blog/img/2019/11/jessitron-12.png" alt="" /></p>
+
+<p>Why does git send these happy messages to STDERR?
+Because it&rsquo;s reserving STDOUT for data that might be piped to another Linux command.
+Git writes to STDERR for lack of Write-Host.</p>
+
+<p>PowerShell distinguishes between data output and messages to the user. 💝</p>
+
+<p>So I made a Function to unwrap the error and put it back into a string. It makes sense to pipe through this when I know the command I ran uses STDERR for messages.</p>
+
+<p><a href="https://gist.github.com/jessitron/c44df7957d2087b49d9fb4bf0b385ef7">fix-stderr.ps1</a></p>
+
+<p>Piping through my process converts those ErrorRecords in the pipe back into strings, and everything works as expected.</p>
+
+<p>git push 2&gt;&amp;1 | fix-stderr | Tee-Object -Variable PushOutput</p>
+
+<p><img src="https://passwd.blog/img/2019/11/jessitron-13.jpg" alt="" />
+<img src="https://passwd.blog/img/2019/11/jessitron-13b.png" alt="" /></p>
+
+  </div>
+
+  <footer>
+    <ul class="stats">
+  <li class="categories">
+    <ul>
+        
+            
+            
+                <i class="fa fa-folder"></i>
+                
+                
+                <li><a class="article-category-link" href="https://passwd.blog/categories/powershell">Powershell</a></li>
+                
+                
+                <li><a class="article-category-link" href="https://passwd.blog/categories/tutorial">Tutorial</a></li>
+                
+            
+        
+    </ul>
+  </li>
+  <li class="tags">
+    <ul>
+        
+            
+            
+                <i class="fa fa-tags"></i>
+                
+                
+                <li><a class="article-category-link" href="https://passwd.blog/tags/tutorial">tutorial</a></li>
+                
+            
+        
+    </ul>
+  </li>
+</ul>
+
+  </footer>
+
+</article>
+
+    <article class="post">
+        <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "shortname" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+    </article>
+
+
+<ul class="actions pagination">
+    
+        <li><a href="https://passwd.blog/blog/hugo-install-setup-publish-part1/"
+                class="button big previous">PART 1: Hugo: Installation, Setup and publishing to GitHub pages using a custom domain.</a></li>
+    
+
+    
+</ul>
+
+
+    </div>
+    
+<section id="sidebar">
+
+  
+  <section id="intro">
+    
+    
+      
+        <a href='https://passwd.blog/' class="logo"><img src="https://passwd.blog/img/main/Passwd.blog-100x100.png" alt="Passwd.Blog Logo" /></a>
+      
+    
+    
+      <header>
+        <h2>Passwd.Blog</h2>
+        <p>Adventures in Password discovery.</p>
+      </header>
+    
+    
+      <ul class="icons">
+        
+          
+    <li><a href="https://passwd.blog/index.xml" type="application/rss+xml" target="_blank" title="RSS" class="fa fa-rss"></a></li>
+
+
+        
+        
+  <li><a href="//github.com/passwdblog" target="_blank" title="GitHub" class="fa fa-github"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <li><a href="//reddit.com/user/passwdblog" target="_blank" title="Reddit" class="fa fa-reddit"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <li><a href="//twitter.com/passwdblog" target="_blank" title="Twitter" class="fa fa-twitter"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <li><a href="mailto:root%20[NOSPAM]%20@%20[NOSPAM]%20passwd.blog" title="Email" class="fa fa-envelope"></a></li>
+
+
+      </ul>
+    
+  </section>
+
+  
+  <section class="recent-posts">
+    <div class="mini-posts">
+      <header>
+        <h3>Recent Posts</h3>
+      </header>
+      <div class="posts-container">
+        
+
+        
+          
+        
+
+        
+          <article class="mini-post">
+            <header>
+              <h3>
+                <a href="https://passwd.blog/blog/powershell-notes-from-jessitron/">Notes from (Twitter:@jessitron) Jessica Joy Kerr&#39;s Bash to Powershell Twitter Thread</a>
+              </h3>
+              
+              <time class="published" datetime='2019-11-15'>
+                November 15, 2019
+              </time>
+            </header>
+            
+    
+
+    
+        
+        
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+
+        
+        
+        
+
+        <a href="https://passwd.blog/blog/powershell-notes-from-jessitron/" class="image featured">
+            <img src="https://passwd.blog/img/2019/11/powershell.jpg" alt="">
+        </a>
+    
+
+
+          </article>
+        
+          <article class="mini-post">
+            <header>
+              <h3>
+                <a href="https://passwd.blog/blog/hugo-install-setup-publish-part1/">PART 1: Hugo: Installation, Setup and publishing to GitHub pages using a custom domain.</a>
+              </h3>
+              
+              <time class="published" datetime='2019-11-01'>
+                November 1, 2019
+              </time>
+            </header>
+            
+    
+
+    
+        
+        
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+
+        
+        
+        
+
+        <a href="https://passwd.blog/blog/hugo-install-setup-publish-part1/" class="image featured">
+            <img src="https://passwd.blog/img/2019/11/Hugo-Logo-004.png" alt="">
+        </a>
+    
+
+
+          </article>
+        
+          <article class="mini-post">
+            <header>
+              <h3>
+                <a href="https://passwd.blog/blog/hugo-install-setup-publish-part2/">PART 2: Hugo: Installation, Setup and publishing to GitHub pages using a custom domain.</a>
+              </h3>
+              
+              <time class="published" datetime='2019-11-01'>
+                November 1, 2019
+              </time>
+            </header>
+            
+    
+
+    
+        
+        
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+
+        
+        
+        
+
+        <a href="https://passwd.blog/blog/hugo-install-setup-publish-part2/" class="image featured">
+            <img src="https://passwd.blog/img/2019/11/Hugo-Logo-004.png" alt="">
+        </a>
+    
+
+
+          </article>
+        
+          <article class="mini-post">
+            <header>
+              <h3>
+                <a href="https://passwd.blog/blog/hugo-install-setup-publish-part3/">PART 3: Hugo: Installation, Setup and publishing to GitHub pages using a custom domain.</a>
+              </h3>
+              
+              <time class="published" datetime='2019-11-01'>
+                November 1, 2019
+              </time>
+            </header>
+            
+    
+
+    
+        
+        
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+
+        
+        
+        
+
+        <a href="https://passwd.blog/blog/hugo-install-setup-publish-part3/" class="image featured">
+            <img src="https://passwd.blog/img/2019/11/Hugo-Logo-004.png" alt="">
+        </a>
+    
+
+
+          </article>
+        
+      </div>
+
+      
+    </div>
+  </section>
+
+  
+  
+  
+  
+  
+    <section id="categories">
+      <header>
+        <h3>
+          <a href="https://passwd.blog/categories/">Categories</a>
+        </h3>
+      </header>
+        
+          
+        
+
+        
+        <p>
+          <article>
+            <header>
+              
+                Uncategorized
+                <span style="float:right;">4</span>
+              
+            </header>
+          </article>
+        </p>
+        
+        <p>
+          <article>
+            <header>
+              
+                <a href="https://passwd.blog/categories/tutorial/">tutorial</a>
+                <span style="float:right;">4</span>
+              
+            </header>
+          </article>
+        </p>
+        
+        <p>
+          <article>
+            <header>
+              
+                <a href="https://passwd.blog/categories/hugo/">hugo</a>
+                <span style="float:right;">3</span>
+              
+            </header>
+          </article>
+        </p>
+        
+        <p>
+          <article>
+            <header>
+              
+                <a href="https://passwd.blog/categories/powershell/">powershell</a>
+                <span style="float:right;">1</span>
+              
+            </header>
+          </article>
+        </p>
+        
+    </section>
+  
+  
+
+  
+  
+    <section id="mini-bio">
+      <h3>About</h3>
+      <p>All the techniques provided in the tutorials on Passwd.Blog are solely meant for educational purposes. All of the techniques taught here are only meant to be used in a closed laboratory environment or in consent with a second party. If you are using any of these techniques for illegal purposes, Passwd.Blog can’t be held responsible for possible lawful consequences.  All actions and activities related to the material contained within Passwd.Blog is solely your responsibility.  If you misuse this information for illegal activities, criminal charges may be brought against your person.  Some links may lead to malicious websites, click carefully, Passwd.Blog can't be held responsible.</p>
+      <a href="https://passwd.blog/about/" class="button">Learn More</a>
+    </section>
+  
+
+  
+  <section id="footer">
+    
+      <ul class="icons">
+        
+          
+    <li><a href="https://passwd.blog/index.xml" type="application/rss+xml" target="_blank" title="RSS" class="fa fa-rss"></a></li>
+
+
+        
+        
+  <li><a href="//github.com/passwdblog" target="_blank" title="GitHub" class="fa fa-github"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <li><a href="//reddit.com/user/passwdblog" target="_blank" title="Reddit" class="fa fa-reddit"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <li><a href="//twitter.com/passwdblog" target="_blank" title="Twitter" class="fa fa-twitter"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <li><a href="mailto:root%20[NOSPAM]%20@%20[NOSPAM]%20passwd.blog" title="Email" class="fa fa-envelope"></a></li>
+
+
+      </ul>
+    
+    <p class="copyright">
+      
+        &copy; 2019
+        
+          Passwd.Blog
+        
+      .
+      Powered by <a href="//gohugo.io" target="_blank">Hugo</a>
+    </p>
+  </section>
+</section>
+
+    </div>
+    <a id="back-to-top" href="#" class="fa fa-arrow-up fa-border fa-2x"></a>
+    
+
+    
+      
+    
+
+    
+      
+      
+      
+        <script src="//cdn.bootcss.com/highlight.js/9.11.0/highlight.min.js"></script>
+        
+        
+        
+        <script src="//cdn.bootcss.com/highlight.js/9.11.0/languages/r.min.js"></script>
+        <script src="//cdn.bootcss.com/highlight.js/9.11.0/languages/yaml.min.js"></script>
+        <script src="//cdn.bootcss.com/highlight.js/9.11.0/languages/css.min.js"></script>
+        <script>hljs.configure({languages: []}); hljs.initHighlightingOnLoad();</script>
+      
+    
+    
+    
+      <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/skel/3.0.1/skel.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.1.25/jquery.fancybox.min.js"></script>
+      <script src="https://passwd.blog/js/util.js"></script>
+      <script src="https://passwd.blog/js/main.js"></script>
+      <script src="https://passwd.blog/js/backToTop.js"></script>
+    
+
+    
+      
+        
+      
+    
+
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+      <script src="//yihui.name/js/math-code.js"></script>
+<script async
+src="//cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+
+
+  </body>
+</html>
+
