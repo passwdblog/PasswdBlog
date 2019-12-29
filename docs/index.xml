@@ -12,6 +12,16 @@
     
     
     <item>
+      <title>Linux Bash Notes - Things I use often, a nice place to keep a reminder...</title>
+      <link>https://passwd.blog/blog/linux-notes/</link>
+      <pubDate>Fri, 15 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://passwd.blog/blog/linux-notes/</guid>
+      <description>BASH I use a lot of Bash and Powershell scripts, I will update this page mainly as a aide-memoire for usefull scripts and snippets&amp;hellip;
+1. Time the execution time of your command or script time yourscript.sh --- or --- start=`date +%s` stuff end=`date +%s` runtime=$((end-start)) --- or --- SECONDS=0 myScript.sh echo $SECONDS  2. Show the current time in a script echo $(date +&amp;quot;%T&amp;quot;)  3. Output of a command to Bash variable For example: Store the number of lines in a file in a Bash variable:</description>
+    </item>
+    
+    <item>
       <title>Notes from (Twitter:@jessitron) Jessica Joy Kerr&#39;s Bash to Powershell Twitter Thread</title>
       <link>https://passwd.blog/blog/powershell-notes-from-jessitron/</link>
       <pubDate>Fri, 15 Nov 2019 00:00:00 +0000</pubDate>

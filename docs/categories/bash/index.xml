@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bash on Passwd.Blog</title>
+    <link>https://passwd.blog/categories/bash/</link>
+    <description>Recent content in Bash on Passwd.Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 15 Nov 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://passwd.blog/categories/bash/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Linux Bash Notes - Things I use often, a nice place to keep a reminder...</title>
+      <link>https://passwd.blog/blog/linux-notes/</link>
+      <pubDate>Fri, 15 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://passwd.blog/blog/linux-notes/</guid>
+      <description>BASH I use a lot of Bash and Powershell scripts, I will update this page mainly as a aide-memoire for usefull scripts and snippets&amp;hellip;
+1. Time the execution time of your command or script time yourscript.sh --- or --- start=`date +%s` stuff end=`date +%s` runtime=$((end-start)) --- or --- SECONDS=0 myScript.sh echo $SECONDS  2. Show the current time in a script echo $(date +&amp;quot;%T&amp;quot;)  3. Output of a command to Bash variable For example: Store the number of lines in a file in a Bash variable:</description>
+    </item>
+    
+  </channel>
+</rss>
